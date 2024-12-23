@@ -1,0 +1,35 @@
+#blog
+    h1
+        font-weight: 700
+        font-size: 35px
+    h3
+        font-size: 20px
+        margin: 30px 0 60px
+    .box
+        display: flex
+        .imgbox
+            border-radius: 20px
+            height: 96px
+        .textbox
+            margin: 0 0 0 20px
+            h2
+                font-size: 22px
+                margin: 10px 0
+            h4
+                font-size: 18px
+                color: #8f8686
+            p
+                font-size: 18px
+                color: #8f8686
+            p,h4
+                margin: 20px 0 0
+    .wid
+        width: 580px
+    @media screen and ( max-width: 992px )
+        .box
+            flex-direction: column
+            .imgbox
+                height: auto
+    @media screen and ( max-width: 768px )
+        .box1
+            margin-top: 50px

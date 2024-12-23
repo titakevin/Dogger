@@ -1,0 +1,56 @@
+#trainers
+    h1
+        font-weight: 700
+        font-size: 38px
+    h3,h4
+        font-weight: 300
+        font-size: 20px
+        color: #a8a8a8
+        margin: 20px 0
+    .box
+        margin: 0 5px
+        .imgbox
+            border-radius: 20px
+        .textbox
+            padding: 15px
+        h2
+            font-weight: 300
+            font-size: 25px
+            padding: 20px 0 0
+        ul
+            display: flex
+            flex-direction: row
+            li
+                margin: 0 10px
+                background-color: #d4cece
+                border-radius: 50%
+                padding: 20px
+                width: 10px
+                height: 10px
+                .icon
+                    margin: -7px
+    .wid
+        width: 580px
+    @media screen and ( max-width: 992px )
+        .box
+            display: flex
+            flex-direction: column
+            align-items: center
+            .imgbox
+                width: 450px
+                height: 500px
+                margin-top: 30px
+            .textbox
+                text-align: center
+                padding: 15px 100px
+                ul
+                    display: flex
+                    justify-content: center
+    @media screen and ( max-width: 476px )
+        .box
+            .imgbox
+                width: auto
+                height: auto
+            .textbox
+                padding: 0
+        
